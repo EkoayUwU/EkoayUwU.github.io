@@ -1,0 +1,13 @@
+body{
+    background-image: url("../sourceimages/bodyBackground.png");
+    background-repeat: repeat;
+    
+}
+
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 36px;
+    text-decoration: underline;
+}
