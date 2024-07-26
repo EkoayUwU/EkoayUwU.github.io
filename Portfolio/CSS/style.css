@@ -1,18 +1,128 @@
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+    text-decoration-line: none;
+}
 body{
     background-color: #353D40;
     
 }
 
-h1{
+img{
+    height: 250px;
+    width: 500px;
+    object-fit: cover;
+}
+/* ------------------------------*/
+/* HEADER CSS*/
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+#header .header{
+    min-height: 8vh;
+    background-color: #161625;
+    transition: 0.3s ease background-color;
+}
+#header .container{
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#header .header-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 0 50px;
+}
+ 
+.Owner-Title{
+    text-decoration: none;
+}
+#header .bar-more{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+.Redir-Links{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#header .header-bar a.button {
+    color: whitesmoke;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+#header .header-bar a.button:hover{
+    color: dimgray;
+    
+}
+
+/* ------------------------------*/
+/* HERO CSS*/
+#hero div{
+    margin-top: 5px;
+    display: block;
+}
+#hero .hero{
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 100px;
+    justify-content: center;
+    text-align: center;
+}
+#hero .container{
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#hero .owner{
+    font-size: 75px;
+}
+#hero h1{
+    padding-top: 50px;
     text-align: center;
     color: whitesmoke;
     font-weight: bold;
-    font-size: 36px;
-    text-decoration: underline;
+    font-size: 55px;
+    text-decoration: none;
+    display: block;
+
+    margin-block-start: 0.83em;
+    margin-block-end: 0.0em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    unicode-bidi: isolate;
+}
+#hero h2{
+    margin-block-start: 0.0em;
+    margin-bottom: 15px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 32px;
 }
 
 
-a.button {
+#hero .title{
+    
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+}
+
+#hero a.button {
     text-decoration-color: white;
     text-align: center;
     display: block;
@@ -29,15 +139,47 @@ a.button {
     border-radius: 2px;
     transition-duration: 0.6s; /* add transition time to hover */
 }
-a.button:hover {
+#hero a.button:hover {
     background-color: #5C5F60;
     color : white;
     /*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.32), 0 17px 50px 0 rgba(0,0,0,0.19);*/
-    box-shadow: 0px 5px 25px 4px rgba(0,0,0,0.24);
+    box-shadow: 0 5px 25px 4px rgba(0,0,0,0.24);
     border-radius: 15px;
     width: 43%;
 }
 
+#hero .cover img{
+    margin-top: 10px ;
+    border-radius: 10px;
+    transition: ease-out 0.3s;
+}
+#hero .cover img:hover{
+    border-radius: 25px;
+    scale: 102.5%;
+}
+#hero .cover-info span{
+    padding: 3px 10px;
+    background-color: darkgreen;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+/*SPAN STYLE*/
+#hero .projects-cover-current .cover-info span:nth-child(1){
+    background-color: cornflowerblue;
+}
+#hero .projects-cover-current .cover-info span:nth-child(2){
+    background-color: darkcyan;
+}
+#hero .projects-cover-current .cover-info span:nth-child(3){
+    background-color: red;
+}
+#hero .projects-cover-current .cover-info span:nth-child(4){
+    background-color: rebeccapurple;
+}
+/*END SPAN STYLE*/
 
 .center {
     display: block;
