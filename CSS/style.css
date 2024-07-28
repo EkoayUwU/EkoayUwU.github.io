@@ -118,68 +118,55 @@ img{
 
 #hero .title{
     
-    text-decoration: underline;
-    text-decoration-color: whitesmoke;
 }
 
 #hero a.button {
+    font-size: 47px;
+    color: whitesmoke;
+    text-decoration: underline;
     text-decoration-color: white;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 08px;
-    width: 45%;
-    
-    background-color: #7A7F80; /* Green background */
-    border: 1px solid black; /* Green border */
-    color: white; /* White text */
-    padding: 17px 00px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    border-radius: 2px;
-    transition-duration: 0.6s; /* add transition time to hover */
+    transition-duration: 0.3s;
 }
 #hero a.button:hover {
-    background-color: #5C5F60;
-    color : white;
-    /*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.32), 0 17px 50px 0 rgba(0,0,0,0.19);*/
-    box-shadow: 0 5px 25px 4px rgba(0,0,0,0.24);
-    border-radius: 15px;
-    width: 43%;
+    text-decoration-color : dimgray;
+    color:dimgray;
+    font-size: 48px;
 }
 
-#hero .cover img{
-    margin-top: 10px ;
-    border-radius: 10px;
-    transition: ease-out 0.3s;
-}
-#hero .cover img:hover{
-    border-radius: 25px;
-    scale: 102.5%;
-}
-#hero .cover-info span{
-    padding: 3px 10px;
-    background-color: darkgreen;
-    border-radius: 10px;
-    font-size: 20px;
-    font-weight: lighter;
-    text-align: center;
-}
+/*ALL COVER STYLE*/
+    #hero .cover img{
+        margin-top: 10px ;
+        border-radius: 10px;
+        transition: ease-out 0.3s;
+    }
+    #hero .cover img:hover{
+        border-radius: 25px;
+        scale: 102.5%;
+    }
+    #hero .cover-info span{
+        padding: 3px 10px;
+        background-color: darkgreen;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: lighter;
+        text-align: center;
+    }
 
-/*SPAN STYLE*/
-#hero .projects-cover-current .cover-info span:nth-child(1){
-    background-color: cornflowerblue;
-}
-#hero .projects-cover-current .cover-info span:nth-child(2){
-    background-color: darkcyan;
-}
-#hero .projects-cover-current .cover-info span:nth-child(3){
-    background-color: red;
-}
-#hero .projects-cover-current .cover-info span:nth-child(4){
-    background-color: rebeccapurple;
-}
-/*END SPAN STYLE*/
+    /*SPAN STYLE*/
+    #hero .projects-cover-current .cover-info span:nth-child(1){
+        background-color: cornflowerblue;
+    }
+    #hero .projects-cover-current .cover-info span:nth-child(2){
+       background-color: darkcyan;
+    }
+    #hero .projects-cover-current .cover-info span:nth-child(3){
+       background-color: red;
+    }
+    #hero .projects-cover-current .cover-info span:nth-child(4){
+    background-color: mediumpurple;
+    }
+    /*END SPAN STYLE*/
+/*END COVER STYLE*/
 
 .center {
     display: block;
