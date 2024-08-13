@@ -13,6 +13,12 @@ img{
     width: 500px;
     object-fit: cover;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 /* ------------------------------*/
 /* HEADER CSS*/
 #header{
@@ -82,7 +88,7 @@ img{
 }
 #hero .container{
     flex-direction: column;
-    width: 100%;
+    /*width: 100%;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -173,4 +179,69 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: #161625;
+    box-sizing: border-box;
+    min-height: 30vh;
+    
+}
+
+#footer .footer{
+    flex-direction: column;
+    padding: 100px 0;
+    align-items: center;
+    justify-content: center;
+    min-width: 20vh;
+}
+
+footer .container{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .section-title{
+    margin-top: 25px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 55px;
+    
+}
+
+#contact .contact-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+}
+#contact .contact-items{
+    width:17.5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 30px;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+    background-color: #3b3b4e;
+}
+
+#contact .contact-info{
+    text-align: center;
+    width: 100%;
+}
+
+#contact .info{
+    font-size: 20px;
+    font-weight: bold;
+    
 }
