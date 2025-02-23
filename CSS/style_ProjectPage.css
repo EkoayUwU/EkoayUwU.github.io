@@ -98,14 +98,24 @@ body{
     justify-content: center;
 
 }
-/*PANEL CLASSES*/
-#hero .Hidden_Panel{
-    display: none;
-}
-#hero .Displayed_Panel{
 
+#hero .title{
+    width: 100%;
+    margin-top: 25px;
+    margin-left: 150px;
+    display: table-row;
+    align-items: center;
+    justify-content: left;
 }
-/*END PANEL CLASSES*/
+
+#hero .text{
+    width: 100%;
+    margin-top: -10px;
+    margin-left: 175px;
+    display: table-row;
+    align-items: center;
+    justify-content: left;
+}
 
 #hero h1{
     margin-block-start: 0.0em;
@@ -115,15 +125,38 @@ body{
     font-size: 32px;
 }
 
-#hero .cover img{
-    margin-top: 10px ;
-    border-radius: 10px;
-    transition: ease-out 0.3s;
+#hero h2{
+    margin-block-start: 0.0em;
+    margin-bottom: 15px;
+    text-align: center;
+    /*color: whitesmoke;*/
+    font-size: 32px;
 }
-#hero .cover img:hover{
-    border-radius: 25px;
-    scale: 102.5%;
+
+#hero h3{
+    margin-block-start: 0.0em;
+    margin-bottom: 15px;
+    text-align: left;
+    color: darkgray;
+    font-size: 24px;
 }
+
+#hero a.button {
+    font-size: 47px;
+    color: whitesmoke;
+    text-decoration: underline;
+    text-decoration-color: white;
+    transition-duration: 0.3s;
+}
+#hero a.button:hover {
+    text-decoration-color : dimgray;
+    color:dimgray;
+    font-size: 48px;
+}
+
+
+
+
 #hero .cover-info span{
     padding: 3px 10px;
     background-color: darkgreen;
@@ -132,18 +165,3 @@ body{
     font-weight: lighter;
     text-align: center;
 }
-
-/*SPAN STYLE*/
-#hero .projects-cover .cover-info span:nth-child(1){
-    background-color: cornflowerblue;
-}
-#hero .projects-cover .cover-info span:nth-child(2){
-    background-color: darkcyan;
-}
-#hero .projects-cover .cover-info span:nth-child(3){
-    background-color: red;
-}
-#hero .projects-cover .cover-info span:nth-child(4){
-    background-color: mediumpurple;
-}
-/*END SPAN STYLE*/
