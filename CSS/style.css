@@ -218,7 +218,7 @@ footer .section-title{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 0;
 }
 #contact .contact-items{
@@ -243,5 +243,10 @@ footer .section-title{
 #contact .info{
     font-size: 20px;
     font-weight: bold;
-    
+}
+
+#contact a.button{
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
 }
