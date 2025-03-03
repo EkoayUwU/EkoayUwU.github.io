@@ -166,7 +166,7 @@ img{
        background-color: darkcyan;
     }
     #hero .projects-cover-current .cover-info span:nth-child(3){
-       background-color: red;
+       background-color: #ff4444;
     }
     #hero .projects-cover-current .cover-info span:nth-child(4){
     background-color: mediumpurple;
