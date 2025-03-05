@@ -120,6 +120,13 @@ img{
     color: whitesmoke;
     font-size: 32px;
 }
+#hero h3{
+    margin-block-start: 0.0em;
+    margin-bottom: 15px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+}
 
 
 #hero .title{
