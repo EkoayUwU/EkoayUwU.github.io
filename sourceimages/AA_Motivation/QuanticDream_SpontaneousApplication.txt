@@ -1,0 +1,25 @@
+Ethan Gongora
+03/22/25
+Recruitment manager
+Quantic Dream
+Paris, France
+
+Subject: Spontaneous Application for a Junior Gameplay Programmer Internship
+
+Dear Recruitment Manager,
+
+As someone deeply fascinated by the mix of technology and storytelling, I am excited to apply for a Gameplay Programmer position at Quantic Dream. 
+With a solid foundation in game development and a passion for pushing creative boundaries, I am eager to contribute to your team and help elevate the studio’s game system. 
+
+During my studies at ESMA, where I completed a three-year Game Conception diploma, I worked on projects such as Nova, a Third-Person Contemplative game, made using Unreal Engine 5 using only C++, Ravenous, a First Person Horror game delivered with Unreal Engine 5 in Blueprint, and GOOMS, a 2D Platformer made with Unity in C#. These experiences allowed me to deepen my expertise in gameplay programming, AI behavior development, Game Systems, Data Management and collaborative problem-solving within multidisciplinary teams. 
+Also, my background in 3D modelling, animation, and rigging further complements my programming skills, allowing me to understand and align technical solutions with artistic visions. 
+
+Quantic Dream’s aim of crafting emotionally rich and technically innovative experiences like Detroit: Become Human or Beyond: Two Souls motivates me. The opportunity to contribute to the evolution of your game such as AI engine-enhancing NPC behaviors, gameplay decision-making systems, and collaborative tools-aligns with my goals. Collaborating closely with level designers, animators, 3D artists, and R&D experts to handle complex challenges excites me as a learner and a gameplay programmer. 
+
+Additionally, I am a native French speaker and proficient in English, allowing me to communicate effectively in professional contexts. Joining Quantic Dream represents a chance to contribute to groundbreaking AAA projects while growing within a team renowned for its excellence and dedication. I am confident that my willingness to learn, creativity, and technical skills make me a good candidate for this role.
+
+Thank you for considering my application. I'm available for an internship starting in July 2025 for a duration of 2 to 6 months. I have attached my CV and Portfolio for your review and would be delighted to discuss how my background and ambitions align with Quantic Dream’s vision. I look forward to your response.
+
+Sincerely,
+Ethan Gongora
+References are available upon request.
