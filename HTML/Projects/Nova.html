@@ -45,11 +45,30 @@
             <!--Icon-->
             <img src="../../sourceimages/Nova/Logo.png" height="400" width="400"/>
         <div class ="hero title">
-            
-
+            <!--Link to ressource-->
+            <a href="https://blaya-thomas.itch.io/nova" class="button title">
+                <h2 class="button">Game Link</h2>
+            </a>
         </div>
         <!--Description of the project-->
         <div class="hero text">
+            <h4>Overview:</h4>
+            <a href="#3C" class="button title">
+            <h3>- 3C</h3>
+                </a>
+            <a href="#GameSystems" class="button title">
+            <h3>- Game Systems</h3>
+                </a>
+            <a href="#Tools" class="button title">
+            <h3>- Tools</h3>
+                </a>
+            <a href="#Shaders" class="button title">
+            <h3>- Shaders</h3>
+                </a>
+            <a href="#Rig" class="button title">
+            <h3>- Rig</h3>
+                </a>
+            
             <h4>Synopsis:</h4>
             <h3>Following a catastrophe caused by mankind, the Moon, awakened in the form of a small luminous ermine, has fallen from the sky.</h3> 
             <h3>Play as Nova, a resident of the city, and embark on a poetic journey through its streets.</h3>
@@ -57,9 +76,147 @@
           
             <h4>Context:</h4>
             <h3>Nova is a third-person 3D platformer, mixing exploration and puzzle-solving and designed to be played on PC with a gamepad support.</h3>
-            <h3>It's my third-year project, as part of a team of 10 students, I serve as the lead gameplay programmer in charge of the 3C, the main character rigger, and tool developer.</h3>
+            <h3>It's my third-year project, as part of a team of 10 students, I serve as the lead gameplay programmer in charge of the 3C, gameplay systems, the main character rigger, tool and shaders developer.</h3>
             <h3>As a challenge and to further improve my skills, I decided to develop this project using only C++.</h3>
-            <h3>Since I'm currently working on this project, I don't have anything to show yet (it's private hehe), but you'll have to wait until the trailer is released. Stay tuned !</h3>
+            
+            <h4>Trailer: </h4>
+            <iframe width="512" height="288"
+                    src="https://www.youtube.com/embed/zZfJSNNe2XE?autoplay=1&mute=1"
+                    frameborder="0"
+                    allowfullscreen>
+            </iframe>
+            
+            <section id="3C">
+            <h4>3C: </h4>
+                <h5>Camera Base: </h5>
+                <h3>To develop this camera, I used several references such as Jusant, Journey, Stray, and Nier : Automata. It gave me a strong base to code all these systems.</h3>
+                <h3>First of all, the goal was to obtain a Smooth, Soft, & Reactive camera in order to enhance the contemplative aspect while being handy for platforming.</h3>
+                <h3>We then chose a 3rd Person Camera with a slight offset to offer a clear view of Nova and the surroundings, helping to have a better visibility and ease the navigation.</h3>
+                <h3>Finally, I added Zooms, Unzooms, FOV Changes, and a slight dumping to add dynamism and impact to Player's actions while not being too sensitive.</h3>
+                <h3>All these effects are handled by a contextual system in a component.</h3>
+                <iframe width="512" height="288"
+                        src="https://www.youtube.com/embed/LVQV6qj1K3E?autoplay=0&mute=1"
+                        frameborder="0"
+                        allowfullscreen>
+                </iframe>
+
+                <h5>Camera Dynamic Systems: </h5>
+                <h3>Inspired by Jusant, I added a dynamic system to automatically add an offset to the camera when player is looking</h3>
+                <h3>upward to let him have the best view as possible.</h3>
+                <h3>Same for the next one, my main reference was Nier : Automata with its Rear Placement. I then made the camera repositioned itself behind </h3>
+                <h3>the Player after a small delay without camera input.</h3>
+                <h3>Player can then be fully focused on their movement and avoid unnecessary inputs to replace the camera.</h3>
+                <iframe width="512" height="288"
+                        src="https://www.youtube.com/embed/f8QkMSPrmGg?autoplay=0&mute=1"
+                        frameborder="0"
+                        allowfullscreen>
+                </iframe>
+                
+                <h3>Just like all the references used before and Sky : Children of Light, I made a Custom Spring Arm Component to </h3>
+                <h3>gives full control of it (add Damping, Camera Lag, Rotation Lag, ...).</h3>
+                <h3>After colliding with an object, the camera will slowly goes back to the default position, avoiding sudden snapping and allowing a smooth distancing.</h3>
+                <iframe width="512" height="288"
+                        src="https://www.youtube.com/embed/xJbGqiAkI5I?autoplay=0&mute=1"
+                        frameborder="0"
+                        allowfullscreen>
+                </iframe>
+
+                <h5>Camera Event Systems: </h5>
+                <h3>I also developed Camera Event Systems such as Focus & Sequencer whose had to highlight important elements such as Door, Frescoes, & Receptacles </h3>
+                <h3>while showing objective or action consequences.</h3>
+                <h3>Panorama & Contemplative were used to enhance the environment by offering a wide and clear views while reinforcing important sequences like before a temple.</h3>
+                <h3>And finally, Interior. The main goal behind this system was to enhance immersion by offering a more suitable camera to close-space while pacing the game.</h3>
+                <iframe width="512" height="288"
+                        src="https://www.youtube.com/embed/M_kliCAjeao?autoplay=0&mute=1"
+                        frameborder="0"
+                        allowfullscreen>
+                </iframe>
+                
+                <h5>Game Mechanics: </h5>
+                <h3>During development, we tried several mechanics such as a Lunar Jump, & the possibility to Grab a wall to jump from it.</h3>
+                <h3>We finally decided to stay with a Glide, a Mantle, and an Interaction.</h3>
+                <h3>For the glide, my main reference was Infamous : Second Son. I decided to smooth & reduce impulsion force to give while smoothing</h3>
+                <h3>global render and giving more control while gliding.</h3>
+                <h3>The Mantle was designed to be dynamic to stay in the action. It's usable everywhere and it's handle feet and hands placement with a Control Rig.</h3>
+                <h3>Finally, the Impulsion. Our goal was to have a pleasing spammable interaction, that don't block player visibility.</h3>
+                <iframe width="512" height="288"
+                        src="https://www.youtube.com/embed/W8G7Pf4TH5Y?autoplay=0&mute=1"
+                        frameborder="0"
+                        allowfullscreen>
+                </iframe>
+            </section>
+
+            <section id="GameSystems">
+            <h4>Game Systems: </h4>
+            <h3>One of my job was also to ensure the game was correctly working.</h3>
+                <h3>I made different systems such as sequencers handler, receptacles, bulbs, light changing, capacities enablers, etc.</h3>
+            </section>
+
+            <section id="Tools">
+            <h4>Tools: </h4>
+            <h5>Rope:</h5>
+            <h3>To develop the rope system in Nova, I used a spline-based approach to procedurally place a mesh along a defined path.</h3>
+            <h3> I implemented custom start and end meshes that automatically align with the rope’s orientation for visual consistency.</h3>
+            <h3>To support the level art team, I added functionality to populate the spline with an array of decorative meshes such as foliage or lanterns</h3> 
+                <h3>at any point along the rope.</h3>
+            <h3>For wall-fixed ropes, I made an optional piton spawning system to enhance realism and environmental integration.</h3>
+            <iframe width="512" height="288"
+                    src="https://www.youtube.com/embed/Ayh7MJjqP9U?autoplay=0&mute=1"
+                    frameborder="0"
+                    allowfullscreen>
+            </iframe>
+            
+            <h5>Barrier:</h5>
+            <h3>I implemented a system using splines to dynamically place meshes along them, allowing for flexible and efficient level art.</h3>
+            <h3>Additional options were developed to toggle custom start/end meshes, as well as separator meshes between barriers, providing designers with greater control over visual layout and modularity.</h3>
+            
+            <h5>Player Parameters Menu:</h5>
+            <h3>In order to ease Game Designer's workflow, I created a custom in-editor Menu to display, sort, quickly modify, and save all related Player's Parameters such as Camera, all kind of Movement, or even Interaction.</h3>
+            <h3>This tool combine Data Asset and Editor Utility Widget, enabling live parameter adjustments even during game simulation</h3>
+            <img src="../../sourceimages/Nova/DA.png" height="775" width="470"/>
+            <img src="../../sourceimages/Nova/DAPP.png" height="775" width="470"/>
+                
+            </section>
+
+            <section id="Shaders">
+            <h4>Shaders: </h4>
+            <h5>Foliage:</h5>
+            <h3>To reinforce the bond between the Moon and the Nature, I developed a reactive foliage system that responds to Moon presence and interaction. </h3>
+            <h3>Key features include: </h3>
+            <h3> - Glow effects driven by Material Parameter Collections, using custom masks, alpha blending, hue shifts, and noise functions for a magical, dynamic appearance.</h3>
+            <h3> - Distance Field interactions allowing grass and plants to bend naturally as the player approaches. </h3>
+            <h3> - A custom wind function, built for reusability, applied across various environmental elements like flags, bells, lanterns, and carillons for a unified aesthetic and a working system.</h3>
+            <h3> - When the player interacts near foliage, both wind force and glow intensity increase, enhancing the link between the environment and the character while giving a visual feedback.</h3>
+            <iframe width="512" height="288"
+                    src="https://www.youtube.com/embed/2YbwnmI53xs?autoplay=0&mute=1"
+                    frameborder="0"
+                    allowfullscreen>
+            </iframe>
+            
+            <h5>Water:</h5>
+            <h3>I created a light wave function for the fountain of the game to simulate water movement while creating a disturbance around player's leg by using distance field. </h3>
+            <iframe width="512" height="288"
+                    src="https://www.youtube.com/embed/8twf5aipb70?autoplay=0&mute=1"
+                    frameborder="0"
+                    allowfullscreen>
+            </iframe>
+            </section>
+
+            <section id="Rig">
+            <h4>Rig:</h4>
+            <h3>One of my primary responsibilities on Nova was to rig the main character, ensuring both expressive control and smooth real-time performance in Unreal Engine.</h3>
+            <h3>Key tasks included:</h3>
+            <h3>- Building a standard character rig for animation, including FK/IK systems for both low, and upper body.</h3>
+            <h3>- Implementing corrective controllers to maintain proper cloth deformation and enhance outfit integrity during movement.</h3>
+            <h3>- Rigging the hair with physics integration directly in Unreal Engine, allowing for dynamic, responsive, and realistic motion.</h3>
+            <h3>- Creating and integrating blendShapes to support facial expressions and emotional range specially for cutscenes and camera close-ups.</h3>
+            <iframe width="512" height="288"
+                    src="https://www.youtube.com/embed/OPD_2KwQzEM?autoplay=0&mute=1"
+                    frameborder="0"
+                    allowfullscreen>
+            </iframe>
+            </section>
+            
         </div>
     </div>
 </section>

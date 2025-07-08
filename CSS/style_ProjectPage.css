@@ -147,7 +147,15 @@ body{
     margin-bottom: 5px;
     text-align: left;
     color: whitesmoke;
-    font-size: 26px;
+    font-size: 27px;
+}
+#hero h5{
+    margin-block-start: 0.0em;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: lightgray;
+    font-size: 23px;
 }
 
 

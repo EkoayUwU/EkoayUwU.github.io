@@ -1,0 +1,27 @@
+Ethan Gongora
+04/13/25
+Recruitment manager
+Hello Games
+United Kingdoms
+
+Subject: Application for a Junior Gameplay Programmer position
+
+Dear Recruitment Manager,
+
+As someone deeply fascinated by the mix of technology and immersive worlds, I am excited to apply for a Junior Gameplay Programmer position at Hello Games.
+With a solid foundation in game development and a passion for pushing creative boundaries, I am eager to contribute to your team and participate in the studio’s game system.
+
+During my studies at ESMA, where I completed a three-year Game Conception diploma, I worked on projects such as Nova, a Third-Person Contemplative game, made using Unreal Engine 5 using only C++, and a horror game made with Blueprint, learning me the basis of video game making and how to construct immersive experiences. Additionally, I spent a lot of time making other C++ projects to enhance my capacities such as tools, redoing game mechanics, and multiple game systems. These experiences allowed me to deepen my expertise in gameplay programming, AI behavior development, Game Systems, Data Management and collaborative problem-solving within multi-disciplinary teams.
+
+Hello Games' aim of crafting a rich world, dynamic and impactful gameplay, and technically innovative experiences that enhance the game industry, such as No Man's Sky motivates me. The opportunity to contribute to the evolution of your game system, such as 3C, gameplay systems, and especially your procedural universe and planet generation aligns perfectly with my goals. Collaborating closely with level designers, animators, 3D artists, and R&D experts to handle complex challenges excites me as a learner and a gameplay programmer.
+
+Additionally, I am a native French speaker and proficient in English, allowing me to communicate effectively in professional contexts. Joining Hello Games represents a chance to contribute to groundbreaking and innovative projects while growing within a dedicated team and aiming for greatness. My willingness to learn, creativity, and technical skills make me a good candidate for this role.
+
+Thank you for considering my application. I'm available for this application starting in July 2025 for a duration of 2 to 6 months. I have attached my CV and Portfolio for your review and would be delighted to discuss how my background and ambitions align with Hello Games' vision. I look forward to your response.
+
+Sincerely,
+Ethan Gongora
+References are available upon request.
+
+Portfolio: https://ekoayuwu.github.io
+Linkedin: https://www.linkedin.com/in/ethangongora/
